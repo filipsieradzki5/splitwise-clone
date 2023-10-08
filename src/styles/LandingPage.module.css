@@ -1,0 +1,9 @@
+.container {
+    background: rgb(69, 120, 178);
+    height: 50vh;
+    width:50vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50px;
+}
