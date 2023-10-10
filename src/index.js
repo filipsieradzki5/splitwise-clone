@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import NewExpense, { action } from "./components/NewExpense";
 import Dashboard from './components/Dashboard';
-import LandingPage from './components/LandingPage';
+import LandingPage, { action } from './components/LandingPage';
 
 
 const router = createBrowserRouter([
