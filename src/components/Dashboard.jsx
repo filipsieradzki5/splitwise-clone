@@ -5,16 +5,26 @@ function Dashboard() {
  return (
     <>
     <Header />
-    <div className={classes.container}>
-        <ul>
-            <li>Adam paid 5 $</li>
-            <li>Adam paid 5 $</li>
-            <li>Adam paid 5 $</li>
-            <li>Adam paid 5 $</li>
-            <li>Adam paid 5 $</li>
-            <li>Adam paid 5 $</li>
-        </ul>
-   </div>
+    <div className={classes.container}>     
+
+<select name="cars" id="cars">
+  <option value="volvo">John</option>
+  <option value="saab">Nicole</option>
+  <option value="mercedes">Natalie</option>
+  <option value="audi">Robert</option>
+  <option value="audi">Tom</option>
+</select>
+<label for="cars"> paid </label>
+<select name="cars" id="cars">
+<option value="volvo">John</option>
+  <option value="saab">Nicole</option>
+  <option value="mercedes">Natalie</option>
+  <option value="audi">Robert</option>
+  <option value="audi">Tom</option>
+  </select>
+  <input placeholder='value' type="number" required />
+  PLN
+</div>
    </>
  )
 }

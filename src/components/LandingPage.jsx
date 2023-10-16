@@ -52,7 +52,8 @@ export async function action({request}) {
   const postData = JSON.stringify(Object.fromEntries(formData))
   console.log(postData)
  set(ref(db, 'expense/' + id),{postData, id}).catch(Error)
- 
+
+ document.getElementById('name').value = ''
 return postData;
   }
 
